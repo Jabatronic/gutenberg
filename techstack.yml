@@ -1,0 +1,2816 @@
+repo_name: Jabatronic/gutenberg
+report_id: dcfad27de4d2a3a345864a86a33a29d5
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T20:12:01+00:00'
+requested_by: mklute101
+provider: github
+branch: trunk
+detected_tools_count: 203
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Jabatronic/gutenberg
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg
+  detection_source: Repo Metadata
+- name: Mustache
+  description: Logic-less templates
+  website_url: http://mustache.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1142/197655.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg
+  detection_source: Repo Metadata
+- name: Objective-C
+  description: The primary programming language you use when writing software for
+    OS X and iOS
+  website_url: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/Jabatronic/gutenberg
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/packages/env/package.json
+  detection_source: packages/env/package.json
+  last_updated_by: Enrique Piqueras
+  last_updated_on: 2019-10-02 05:36:43.000000000 Z
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg
+  detection_source: Repo Metadata
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/Jabatronic/gutenberg
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Dennis Snell
+  last_updated_on: 2017-02-07 19:17:25.000000000 Z
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/packages/react-native-editor/android/app/build.gradle
+  detection_source: packages/react-native-editor/android/app/build.gradle
+  last_updated_by: Carlos Garcia
+  last_updated_on: 2023-07-28 18:13:33.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/packages/postcss-plugins-preset/package.json
+  detection_source: packages/postcss-plugins-preset/package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2021-05-19 12:21:20.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Aki Hamano
+  last_updated_on: 2022-08-08 10:59:29.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Dennis Snell
+  last_updated_on: 2017-02-07 19:17:25.000000000 Z
+- name: Preact
+  description: Fast 3kb alternative to React with the same ES6 API
+  website_url: http://developit.github.io/preact/
+  version: 10.13.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/4388/preact.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/interactivity/package.json
+  last_updated_by: David Arenas
+  last_updated_on: 2023-06-28 16:00:23.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Marin Atanasov
+  last_updated_on: 2023-08-16 09:44:59.000000000 Z
+- name: React Native
+  description: A framework for building native apps with React
+  website_url: http://facebook.github.io/
+  version: 0.71.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Mobile Development
+  image_url: https://img.stackshare.io/service/2699/KoK6gHzp.jpg
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Marin Atanasov
+  last_updated_on: 2023-08-16 09:44:59.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.1.2
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2021-12-14 12:40:57.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Dennis Snell
+  last_updated_on: 2017-02-07 19:17:25.000000000 Z
+- name: Storybook
+  description: Build bulletproof UI components faster
+  website_url: https://storybook.js.org/
+  version: 7.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9240/sOct-Txm_400x400.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-08-10 20:30:12.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-08-10 20:30:12.000000000 Z
+- name: Appium
+  description: Automation for iOS and Android Apps
+  website_url: http://appium.io/
+  version: 1.22.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Mobile Testing Frameworks
+  image_url: https://img.stackshare.io/service/2855/0KVJyYNC_400x400.jpg
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gerardo Pacheco
+  last_updated_on: 2022-10-07 13:04:28.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: babel.config.js
+  last_updated_by: Adam Zielinski
+  last_updated_on: 2022-05-07 09:58:57.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Dennis Snell
+  last_updated_on: 2017-02-07 19:17:25.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/.github/workflows/build-plugin-zip.yml
+  detection_source: ".github/workflows/build-plugin-zip.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-07-28 12:22:32.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/packages/react-native-aztec/android/build.gradle
+  detection_source: packages/react-native-aztec/android/build.gradle
+  last_updated_by: Oguz Kocer
+  last_updated_on: 2021-03-26 21:28:22.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dennis Snell
+  last_updated_on: 2017-02-07 19:17:25.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Dennis Snell
+  last_updated_on: 2017-02-07 19:17:25.000000000 Z
+- name: Octokit
+  description: GitHub API Client Library for .NET
+  website_url: https://github.com/octokit/octokit.net
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Tools for GitHub
+  image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Kai Hao
+  last_updated_on: 2022-05-27 02:21:26.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: '4.0'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/test/php/gutenberg-coding-standards/composer.json
+  detection_source: test/php/gutenberg-coding-standards/composer.json
+  last_updated_by: Anton Vlasenko
+  last_updated_on: 2023-07-20 14:48:07.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jarda Snajdr
+  last_updated_on: 2023-03-22 14:03:35.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/packages/env/package.json
+  detection_source: packages/env/package.json
+  last_updated_by: Enrique Piqueras
+  last_updated_on: 2019-10-02 05:36:43.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/packages/react-native-editor/ios/Gemfile
+  detection_source: packages/react-native-editor/ios/Gemfile
+  last_updated_by: David Calhoun
+  last_updated_on: 2022-01-03 21:54:48.000000000 Z
+- name: Stylelint
+  description: A mighty, modern CSS linter
+  website_url: http://stylelint.io/
+  version: 14.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/scripts/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2023-08-15 06:59:43.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.46.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Glen Davies
+  last_updated_on: 2023-08-15 00:13:18.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Dennis Snell
+  last_updated_on: 2017-02-07 19:17:25.000000000 Z
+- name: Ora
+  description: Agile task management and visual team collaboration, Ora is your team’s
+    command center with kanban, chat and timers!
+  website_url: https://ora.pm/
+  open_source: false
+  hosted_saas: true
+  category: Collaboration
+  sub_category: Project Management
+  image_url: https://img.stackshare.io/service/6925/preview.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/packages/env/package.json
+  detection_source: packages/env/package.json
+  last_updated_by: Enrique Piqueras
+  last_updated_on: 2019-10-02 05:36:43.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/packages/react-native-editor/android/app/build.gradle
+  detection_source: packages/react-native-editor/android/app/build.gradle
+  last_updated_by: Carlos Garcia
+  last_updated_on: 2023-07-28 18:13:33.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  version: 1.11.3
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/packages/react-native-editor/ios/Gemfile.lock
+  detection_source: packages/react-native-editor/ios/Gemfile
+  last_updated_by: Carlos Garcia
+  last_updated_on: 2023-07-27 09:52:54.000000000 Z
+- name: Lerna
+  description: A tool for managing JavaScript projects
+  website_url: https://lerna.js.org/
+  version: 7.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-08-10 10:21:51.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/date/package.json
+  last_updated_by: Wojtek Naruniec
+  last_updated_on: 2023-02-09 10:10:44.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg
+  detection_source: Repo Metadata
+- name: Showdown
+  description: JavaScript port of Markdown
+  website_url: https://github.com/coreyti/showdown
+  version: 1.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/blocks/package.json
+  last_updated_by: Sérgio Gomes
+  last_updated_on: 2020-04-24 14:04:15.000000000 Z
+- name: WordPress
+  description: A semantic personal publishing platform with a focus on aesthetics,
+    web standards, and usability.
+  website_url: http://wordpress.org
+  open_source: true
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: Self-Hosted Blogging / CMS
+  image_url: https://img.stackshare.io/service/250/logo.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Glen Davies
+  last_updated_on: 2023-08-15 00:13:18.000000000 Z
+- name: browserslist
+  website_url: https://github.com/ai/browserslist
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6650/19343.jpeg
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Jarda Snajdr
+  last_updated_on: 2023-07-10 07:13:22.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Jon Desrosiers
+  last_updated_on: 2021-06-11 11:00:33.000000000 Z
+- name: cssnano
+  description: A modular minifier, based on the PostCSS ecosystem. Created by @ben_eb.
+  website_url: http://cssnano.co/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6612/ehMiE-wz_normal.jpg
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2023-08-15 05:48:08.000000000 Z
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/packages/components/package.json
+  detection_source: packages/components/package.json
+  last_updated_by: Adam Zielinski
+  last_updated_on: 2023-02-09 11:01:23.000000000 Z
+- name: downshift
+  description: Primitive to build simple, flexible, WAI-ARIA compliant enhanced input
+    React components
+  website_url: https://github.com/paypal/downshift
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10155/no-img-open-source.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/packages/components/package.json
+  detection_source: packages/components/package.json
+  last_updated_by: tellthemachines
+  last_updated_on: 2023-07-06 07:52:45.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Aki Hamano
+  last_updated_on: 2022-08-08 10:59:29.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Marin Atanasov
+  last_updated_on: 2023-08-16 09:44:59.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jarda Snajdr
+  last_updated_on: 2023-08-17 13:21:16.000000000 Z
+- name: "@babel/plugin-proposal-export-namespace-from"
+  description: Compile export namespace to ES2015
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-export-namespace-from
+  version: 7.18.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16312/default_3b7197abc4df3d7fa7c5292f17b2e6fb0cd1c8d4.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jarda Snajdr
+  last_updated_on: 2023-08-17 13:21:16.000000000 Z
+- name: "@babel/plugin-syntax-jsx"
+  description: Allow parsing of jsx
+  package_url: https://www.npmjs.com/@babel/plugin-syntax-jsx
+  version: 7.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17129/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jarda Snajdr
+  last_updated_on: 2023-08-17 13:21:16.000000000 Z
+- name: "@babel/plugin-transform-react-jsx"
+  description: Turn JSX into React function calls
+  package_url: https://www.npmjs.com/@babel/plugin-transform-react-jsx
+  version: 7.22.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16556/default_50be6a65e5f7390c20dda2f19371abc1271db012.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/babel-preset-default/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2021-11-11 07:03:35.000000000 Z
+- name: "@babel/plugin-transform-runtime"
+  description: Externalise references to helpers and builtins
+  package_url: https://www.npmjs.com/@babel/plugin-transform-runtime
+  version: 7.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15952/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/babel-preset-default/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2021-11-11 07:03:35.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.22.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/babel-preset-default/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2021-11-11 07:03:35.000000000 Z
+- name: "@babel/preset-typescript"
+  description: Babel preset for TypeScript
+  package_url: https://www.npmjs.com/@babel/preset-typescript
+  version: 7.22.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16084/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/babel-preset-default/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2021-11-11 07:03:35.000000000 Z
+- name: "@babel/runtime"
+  description: Babel's modular runtime helpers
+  package_url: https://www.npmjs.com/@babel/runtime
+  version: 7.22.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15934/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/a11y/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2021-11-11 07:03:35.000000000 Z
+- name: "@babel/runtime-corejs3"
+  description: Babel's modular runtime helpers with core-js@3 polyfilling
+  package_url: https://www.npmjs.com/@babel/runtime-corejs3
+  version: 7.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17473/default_e5adc22c59a44962e41dfaec51edeb42c083f2f4.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jarda Snajdr
+  last_updated_on: 2023-08-17 13:21:16.000000000 Z
+- name: "@babel/traverse"
+  description: The Babel Traverse module maintains the overall tree state
+  package_url: https://www.npmjs.com/@babel/traverse
+  version: 7.22.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17114/default_5b9eca95ab3651165eb280ed5e0bc9a9382ad24d.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gutenberg Repository Automation
+  last_updated_on: 2023-08-23 13:30:49.000000000 Z
+  vulnerabilities:
+  - name: Babel vulnerable to arbitrary code execution when compiling specifically
+      crafted malicious code
+    cve_id: CVE-2023-45133
+    cve_url: https://github.com/advisories/GHSA-67hx-6x53-jw92
+    detected_date: Oct 17
+    severity: critical
+    first_patched: 7.23.2
+- name: "@emotion/styled"
+  description: Styled API for emotion
+  package_url: https://www.npmjs.com/@emotion/styled
+  version: 11.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/block-editor/package.json
+  last_updated_by: Brad Jorsch
+  last_updated_on: 2023-07-11 05:14:21.000000000 Z
+- name: "@octokit/rest"
+  description: GitHub REST API client for Node.js
+  package_url: https://www.npmjs.com/@octokit/rest
+  version: 16.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Kai Hao
+  last_updated_on: 2022-05-27 02:21:26.000000000 Z
+- name: "@storybook/addon-a11y"
+  description: A11y addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-a11y
+  version: 7.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17117/default_9746cbb559e39df4afd8298f9a252dff8519e646.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-08-10 20:30:12.000000000 Z
+- name: "@storybook/addon-actions"
+  description: Action Logger addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-actions
+  version: 7.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16126/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-08-10 20:30:12.000000000 Z
+- name: "@storybook/addon-docs"
+  description: Superior documentation for your components
+  package_url: https://www.npmjs.com/@storybook/addon-docs
+  version: 7.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17835/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-08-10 20:30:12.000000000 Z
+- name: "@storybook/addon-viewport"
+  description: Storybook addon to change the viewport size to mobile
+  package_url: https://www.npmjs.com/@storybook/addon-viewport
+  version: 7.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16893/default_143d92b1fc944107cf48a3ab42a2a347bf3d91b5.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-08-10 20:30:12.000000000 Z
+- name: "@storybook/react"
+  description: 'Storybook for React: Develop React Component in isolation with Hot
+    Reloading'
+  package_url: https://www.npmjs.com/@storybook/react
+  version: 7.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16042/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Marin Atanasov
+  last_updated_on: 2023-08-16 09:44:59.000000000 Z
+- name: "@storybook/theming"
+  description: Core Storybook Components
+  package_url: https://www.npmjs.com/@storybook/theming
+  version: 7.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17754/default_8cfeb169319d5cc646c1e13f8a10e7d7e7430d7c.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-08-10 20:30:12.000000000 Z
+- name: "@svgr/webpack"
+  description: SVGR webpack loader
+  package_url: https://www.npmjs.com/@svgr/webpack
+  version: 8.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16411/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/scripts/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2023-08-15 06:59:43.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.16.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Bart Kalisz
+  last_updated_on: 2023-08-18 11:09:54.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 14.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Bart Kalisz
+  last_updated_on: 2023-08-18 11:09:54.000000000 Z
+- name: "@types/eslint"
+  description: TypeScript definitions for eslint
+  package_url: https://www.npmjs.com/@types/eslint
+  version: 7.28.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18156/default_9663441986aa2be78296ccf617e43ef9e612b34e.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Marin Atanasov
+  last_updated_on: 2023-08-16 09:44:59.000000000 Z
+- name: "@types/mime"
+  description: TypeScript definitions for mime
+  package_url: https://www.npmjs.com/@types/mime
+  version: 2.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18274/default_7a7ed285fac4b842f0d8c3991804954d9db6b793.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Noah Allen
+  last_updated_on: 2023-08-08 22:05:40.000000000 Z
+- name: "@types/prettier"
+  description: TypeScript definitions for prettier
+  package_url: https://www.npmjs.com/@types/prettier
+  version: 2.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16943/default_c17ccfb3dc0510bb2c684b87ee080a74a9728c34.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Glen Davies
+  last_updated_on: 2023-08-15 00:13:18.000000000 Z
+- name: "@types/qs"
+  description: TypeScript definitions for qs
+  package_url: https://www.npmjs.com/@types/qs
+  version: 6.9.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17032/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Noah Allen
+  last_updated_on: 2023-08-08 22:05:40.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Marin Atanasov
+  last_updated_on: 2023-08-16 09:44:59.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Marin Atanasov
+  last_updated_on: 2023-08-16 09:44:59.000000000 Z
+- name: "@types/semver"
+  description: TypeScript definitions for semver
+  package_url: https://www.npmjs.com/@types/semver
+  version: 7.3.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16694/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2023-08-15 06:59:43.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 8.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Noah Allen
+  last_updated_on: 2023-08-08 22:05:40.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.62.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/eslint-plugin/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2023-08-15 04:48:20.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.62.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/eslint-plugin/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2023-08-15 04:48:20.000000000 Z
+- name: adm-zip
+  description: Javascript implementation of zip for nodejs with support for electron
+    original-fs
+  package_url: https://www.npmjs.com/adm-zip
+  version: 0.5.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16663/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/scripts/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2022-01-04 08:30:43.000000000 Z
+- name: ajv
+  description: Another JSON Schema Validator
+  package_url: https://www.npmjs.com/ajv
+  version: 6.12.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16186/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dennis Snell
+  last_updated_on: 2017-02-07 19:17:25.000000000 Z
+- name: babel-jest
+  description: Jest plugin to use babel for transformation
+  package_url: https://www.npmjs.com/babel-jest
+  version: 29.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jarda Snajdr
+  last_updated_on: 2023-08-17 13:21:16.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 9.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jarda Snajdr
+  last_updated_on: 2023-08-17 13:21:16.000000000 Z
+- name: babel-plugin-transform-remove-console
+  description: Remove all console.* calls
+  package_url: https://www.npmjs.com/babel-plugin-transform-remove-console
+  version: 6.9.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17649/default_894a45ad01fa93ac472db719cb1ef1b89f2924f0.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Bart Kalisz
+  last_updated_on: 2023-08-18 11:09:54.000000000 Z
+- name: benchmark
+  description: A benchmarking library that supports high-resolution timers &amp; returns
+    statistically significant results
+  package_url: https://www.npmjs.com/benchmark
+  version: 2.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16241/default_cbc604730ab04341982d806fe402cd0706cc8bf4.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Grzegorz (Greg) Ziółkowski
+  last_updated_on: 2018-12-12 09:21:31.000000000 Z
+- name: browserslist
+  description: Share target browsers between different front-end tools
+  package_url: https://www.npmjs.com/browserslist
+  version: 4.21.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17198/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jarda Snajdr
+  last_updated_on: 2023-07-10 07:13:22.000000000 Z
+- name: caniuse-lite
+  description: A smaller version of caniuse-db, with only the essentials!
+  package_url: https://www.npmjs.com/caniuse-lite
+  version: 1.0.30001513
+  license: CC-BY-4.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18015/default_1f8ed84269df051b7e91bcbcb5c88ac6f0d8720d.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-08-10 20:30:12.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jon Desrosiers
+  last_updated_on: 2021-06-11 11:00:33.000000000 Z
+- name: change-case
+  description: Transform a string between `camelCase`
+  package_url: https://www.npmjs.com/change-case
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16612/default_9cd376f2200c8f6c32ebd690bb6c290852dee64d.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Marin Atanasov
+  last_updated_on: 2022-08-10 10:27:43.000000000 Z
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  version: 2.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/block-editor/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2021-07-13 15:16:03.000000000 Z
+- name: clean-webpack-plugin
+  description: A webpack plugin to remove/clean your build folder
+  package_url: https://www.npmjs.com/clean-webpack-plugin
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16068/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/scripts/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2023-08-15 06:59:43.000000000 Z
+- name: clipboard
+  description: Modern copy to clipboard. No Flash. Just 2kb
+  package_url: https://www.npmjs.com/clipboard
+  version: 2.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16838/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/compose/package.json
+  last_updated_by: Jorge Costa
+  last_updated_on: 2022-01-07 15:44:58.000000000 Z
+- name: commander
+  description: The complete solution for node.js command-line programs
+  package_url: https://www.npmjs.com/commander
+  version: 6.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-04-27 09:33:45.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 3.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-08-10 20:30:12.000000000 Z
+- name: copy-dir
+  description: Copy-dir
+  package_url: https://www.npmjs.com/copy-dir
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17819/default_a53af9d6b5a4c8c6e8d5f8494d76a8d2efd3e660.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/env/package.json
+  last_updated_by: Peter Vogel
+  last_updated_on: 2020-05-27 20:08:17.000000000 Z
+- name: copy-webpack-plugin
+  description: Copy files &amp;&amp; directories with webpack
+  package_url: https://www.npmjs.com/copy-webpack-plugin
+  version: 10.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Marin Atanasov
+  last_updated_on: 2023-08-16 09:44:59.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/babel-preset-default/package.json
+  last_updated_by: Jarda Snajdr
+  last_updated_on: 2023-07-10 07:13:22.000000000 Z
+- name: cosmiconfig
+  description: Find and load configuration from a package.json property
+  package_url: https://www.npmjs.com/cosmiconfig
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17133/default_aae1698f13b22e457dce8faa3612b71379cf7a48.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/eslint-plugin/package.json
+  last_updated_by: Simon Hammes
+  last_updated_on: 2021-12-03 10:35:24.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 3.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jarda Snajdr
+  last_updated_on: 2023-08-17 13:21:16.000000000 Z
+- name: cross-spawn
+  description: Cross platform child_process#spawn and child_process#spawnSync
+  package_url: https://www.npmjs.com/cross-spawn
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16069/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/scripts/package.json
+  last_updated_by: Grzegorz (Greg) Ziółkowski
+  last_updated_on: 2018-01-26 09:22:59.000000000 Z
+- name: cssnano
+  description: A modular minifier, built on top of the PostCSS ecosystem
+  package_url: https://www.npmjs.com/cssnano
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16102/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2023-08-15 05:48:08.000000000 Z
+- name: deep-freeze
+  description: Recursively Object.freeze
+  package_url: https://www.npmjs.com/deep-freeze
+  version: 0.0.1
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17827/default_369b3bf3ef062123a581e4817f09cb0004de7ff6.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Stephen Edgar
+  last_updated_on: 2018-01-12 07:43:28.000000000 Z
+- name: deepmerge
+  description: A library for deep
+  package_url: https://www.npmjs.com/deepmerge
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16179/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/babel-plugin-makepot/package.json
+  last_updated_by: Marin Atanasov
+  last_updated_on: 2023-02-21 14:06:47.000000000 Z
+- name: diff
+  description: A javascript text diff implementation
+  package_url: https://www.npmjs.com/diff
+  version: 4.0.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16509/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/block-editor/package.json
+  last_updated_by: Sérgio Gomes
+  last_updated_on: 2020-05-04 15:06:25.000000000 Z
+- name: downshift
+  description: A set of primitives to build simple
+  package_url: https://www.npmjs.com/downshift
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18017/default_ab659b5159df20d1c32f07b936d63628134f5b3d.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/components/package.json
+  last_updated_by: tellthemachines
+  last_updated_on: 2023-07-06 07:52:45.000000000 Z
+- name: escape-html
+  description: Escape string for use in HTML
+  package_url: https://www.npmjs.com/escape-html
+  version: 1.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17037/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Marin Atanasov
+  last_updated_on: 2022-10-26 09:43:28.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/eslint-plugin/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2023-08-15 04:48:20.000000000 Z
+- name: eslint-import-resolver-node
+  description: Node default behavior import resolution plugin for eslint-plugin-import
+  package_url: https://www.npmjs.com/eslint-import-resolver-node
+  version: 0.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17714/default_8cfeb169319d5cc646c1e13f8a10e7d7e7430d7c.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Marin Atanasov
+  last_updated_on: 2023-08-16 09:44:59.000000000 Z
+- name: eslint-plugin-eslint-comments
+  description: Additional ESLint rules for ESLint directive comments
+  package_url: https://www.npmjs.com/eslint-plugin-eslint-comments
+  version: 3.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17716/default_9693d58c90f5c726ee648423687212d2a94266da.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jarda Snajdr
+  last_updated_on: 2023-08-17 13:21:16.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.25.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Marin Atanasov
+  last_updated_on: 2023-08-16 09:44:59.000000000 Z
+- name: eslint-plugin-jest
+  description: Eslint rules for Jest
+  package_url: https://www.npmjs.com/eslint-plugin-jest
+  version: 27.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15996/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jarda Snajdr
+  last_updated_on: 2023-08-17 13:21:16.000000000 Z
+- name: eslint-plugin-jsdoc
+  description: JSDoc linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-jsdoc
+  version: 46.4.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16672/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/eslint-plugin/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2023-08-15 04:48:20.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/eslint-plugin/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2023-08-15 04:48:20.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/eslint-plugin/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2023-08-15 04:48:20.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.27.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/eslint-plugin/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2023-08-15 04:48:20.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/eslint-plugin/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2023-08-15 04:48:20.000000000 Z
+- name: execa
+  description: Process execution for humans
+  package_url: https://www.npmjs.com/execa
+  version: 5.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16132/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Andrew Duthie
+  last_updated_on: 2020-06-03 20:38:47.000000000 Z
+- name: extract-zip
+  description: Unzip a zip file into a directory using 100% javascript
+  package_url: https://www.npmjs.com/extract-zip
+  version: 2.0.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17488/default_2ae5beb193365eca46e337162957275ebc9c6b3b.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/env/package.json
+  last_updated_by: Enrique Piqueras
+  last_updated_on: 2020-02-26 01:08:54.000000000 Z
+- name: fast-deep-equal
+  description: Fast deep equal
+  package_url: https://www.npmjs.com/fast-deep-equal
+  version: 3.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17360/default_c11ea7d401c11f11d89301d0302509ab7d72e5ac.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/block-editor/package.json
+  last_updated_by: Michal
+  last_updated_on: 2023-05-24 21:01:58.000000000 Z
+- name: fast-glob
+  description: It's a very fast and efficient glob library for Node.js
+  package_url: https://www.npmjs.com/fast-glob
+  version: 3.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17033/default_50357c490b205882dcfb608fd3c74b446186c21e.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2021-11-11 19:27:57.000000000 Z
+- name: form-data
+  description: A library to create readable "multipart/form-data" streams
+  package_url: https://www.npmjs.com/form-data
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16415/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/e2e-test-utils-playwright/package.json
+  last_updated_by: Kai Hao
+  last_updated_on: 2022-09-26 03:06:13.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 7.2.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2021-11-11 19:27:57.000000000 Z
+- name: got
+  description: Human-friendly and powerful HTTP request library for Node.js
+  package_url: https://www.npmjs.com/got
+  version: 11.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16258/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/env/package.json
+  last_updated_by: Enrique Piqueras
+  last_updated_on: 2019-10-02 05:36:43.000000000 Z
+  vulnerabilities:
+  - name: Got allows a redirect to a UNIX socket
+    cve_id: CVE-2022-33987
+    cve_url: https://github.com/advisories/GHSA-pfrx-2q88-qq97
+    detected_date: Jun 22
+    severity: moderate
+    first_patched: 11.8.5
+- name: history
+  description: Manage session history with JavaScript
+  package_url: https://www.npmjs.com/history
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16209/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/router/package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-04-27 08:51:04.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Aki Hamano
+  last_updated_on: 2022-08-08 10:59:29.000000000 Z
+- name: inherits
+  description: Browser-friendly inheritance fully compatible with standard node.js
+    inherits
+  package_url: https://www.npmjs.com/inherits
+  version: 2.0.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16376/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/block-editor/package.json
+  last_updated_by: Grzegorz (Greg) Ziółkowski
+  last_updated_on: 2019-08-09 08:48:16.000000000 Z
+- name: inquirer
+  description: A collection of common interactive command line user interfaces
+  package_url: https://www.npmjs.com/inquirer
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15911/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Grzegorz (Greg) Ziółkowski
+  last_updated_on: 2020-04-09 05:23:47.000000000 Z
+- name: is-plain-object
+  description: Returns true if an object was created by the `Object` constructor
+  package_url: https://www.npmjs.com/is-plain-object
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17345/default_c1932d441699b98abea6098c6f8f65e2acb4f5ed.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/babel-plugin-makepot/package.json
+  last_updated_by: Marin Atanasov
+  last_updated_on: 2023-02-21 14:06:47.000000000 Z
+- name: is-promise
+  description: Test whether an object looks like a promises-a+ promise
+  package_url: https://www.npmjs.com/is-promise
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17449/default_188fa5cbc974fa18aed5a9b1f0d7f2bfaf8f1648.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/data/package.json
+  last_updated_by: Marin Atanasov
+  last_updated_on: 2022-08-23 19:53:57.000000000 Z
+- name: jest-environment-jsdom
+  description: Delightful JavaScript Testing
+  package_url: https://www.npmjs.com/jest-environment-jsdom
+  version: 29.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18413/default_867ef7396016341fd213fa568d6de11cc98fefff.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jarda Snajdr
+  last_updated_on: 2023-08-17 13:21:16.000000000 Z
+- name: jest-junit
+  description: A jest reporter that generates junit xml files
+  package_url: https://www.npmjs.com/jest-junit
+  version: 13.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16536/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jarda Snajdr
+  last_updated_on: 2023-08-17 13:21:16.000000000 Z
+- name: jest-watch-typeahead
+  description: Jest plugin for filtering by filename or test name
+  package_url: https://www.npmjs.com/jest-watch-typeahead
+  version: 2.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16646/default_50c9ed1615a25628505ab53def64d82450ced26b.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jarda Snajdr
+  last_updated_on: 2023-08-17 13:21:16.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/env/package.json
+  last_updated_by: Robert Anderson
+  last_updated_on: 2020-02-07 04:46:04.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 10.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Marin Atanasov
+  last_updated_on: 2023-08-16 09:44:59.000000000 Z
+- name: make-dir
+  description: Make a directory and its parents if needed - Think `mkdir -p`
+  package_url: https://www.npmjs.com/make-dir
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17686/default_52c11a434d2ce37281914a7f804e07cf95ab96f7.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Daniel Richards
+  last_updated_on: 2019-09-13 20:56:30.000000000 Z
+- name: markdownlint-cli
+  description: MarkdownLint Command Line Interface
+  package_url: https://www.npmjs.com/markdownlint-cli
+  version: 0.31.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17273/default_b2015e9577d171c4c3f12c3c8d253c01fe63ba8d.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/scripts/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2023-08-15 06:59:43.000000000 Z
+- name: metro-react-native-babel-preset
+  description: Babel preset for React Native applications
+  package_url: https://www.npmjs.com/metro-react-native-babel-preset
+  version: 0.73.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16699/default_5ea3918e441555ef1fd413f4100fe15fe23b366f.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jarda Snajdr
+  last_updated_on: 2023-08-17 13:21:16.000000000 Z
+- name: mime
+  description: A comprehensive library for mime-type mapping
+  package_url: https://www.npmjs.com/mime
+  version: 2.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16182/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/e2e-test-utils-playwright/package.json
+  last_updated_by: Kai Hao
+  last_updated_on: 2022-09-26 03:06:13.000000000 Z
+- name: mini-css-extract-plugin
+  description: Extracts CSS into separate files
+  package_url: https://www.npmjs.com/mini-css-extract-plugin
+  version: 2.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15992/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/scripts/package.json
+  last_updated_by: Jarda Snajdr
+  last_updated_on: 2023-05-26 11:50:49.000000000 Z
+- name: minimist
+  description: Parse argument options
+  package_url: https://www.npmjs.com/minimist
+  version: 0.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/scripts/package.json
+  last_updated_by: Fabian Kägy
+  last_updated_on: 2022-01-18 18:17:05.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in minimist
+    cve_id: CVE-2021-44906
+    cve_url: https://github.com/advisories/GHSA-xvch-5gv4-984h
+    detected_date: Mar 22
+    severity: critical
+    first_patched: 0.2.4
+  - name: Prototype Pollution in minimist
+    cve_id: CVE-2020-7598
+    cve_url: https://github.com/advisories/GHSA-vh95-rmgr-6w4m
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.2.1
+  - name: 'Withdrawn: ESLint dependencies are vulnerable (ReDoS and Prototype Pollution)'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-7fhm-mqm4-2wp7
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.2.2
+- name: mkdirp
+  description: Recursively mkdir, like `mkdir -p`
+  package_url: https://www.npmjs.com/mkdirp
+  version: 0.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-08-10 15:11:55.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/date/package.json
+  last_updated_by: Wojtek Naruniec
+  last_updated_on: 2023-02-09 10:10:44.000000000 Z
+  vulnerabilities:
+  - name: 'Path Traversal: ''dir/../../filename'' in moment.locale'
+    cve_id: CVE-2022-24785
+    cve_url: https://github.com/advisories/GHSA-8hfj-j24r-96c4
+    detected_date: Apr 9
+    severity: high
+    first_patched: 2.29.2
+  - name: Moment.js vulnerable to Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-31129
+    cve_url: https://github.com/advisories/GHSA-wc69-rhjr-hc9g
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.29.4
+- name: moment-timezone
+  description: Parse and display moments in any timezone
+  package_url: https://www.npmjs.com/moment-timezone
+  version: 0.5.33
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16298/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/date/package.json
+  last_updated_by: Wojtek Naruniec
+  last_updated_on: 2023-02-09 10:10:44.000000000 Z
+  vulnerabilities:
+  - name: Cleartext Transmission of Sensitive Information in moment-timezone
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-v78c-4p63-2j6c
+    detected_date: Aug 31
+    severity: moderate
+    first_patched: 0.5.35
+  - name: Command Injection in moment-timezone
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-56x4-j7p9-fcf9
+    detected_date: Aug 31
+    severity: low
+    first_patched: 0.5.35
+- name: mousetrap
+  description: Simple library for handling keyboard shortcuts
+  package_url: https://www.npmjs.com/mousetrap
+  version: 1.6.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18018/image.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/compose/package.json
+  last_updated_by: sarayourfriend
+  last_updated_on: 2021-05-26 14:58:56.000000000 Z
+- name: nock
+  description: HTTP server mocking and expectations library for Node.js
+  package_url: https://www.npmjs.com/nock
+  version: 12.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16036/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Andrew Duthie
+  last_updated_on: 2020-04-01 13:56:29.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-08-09 08:49:19.000000000 Z
+- name: node-watch
+  description: A wrapper and enhancements for fs.watch
+  package_url: https://www.npmjs.com/node-watch
+  version: 0.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16713/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-08-09 08:49:19.000000000 Z
+- name: npm-package-arg
+  description: Parse the things that can be arguments to `npm install`
+  package_url: https://www.npmjs.com/npm-package-arg
+  version: 8.1.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18689/default_97b689c91e523aad5ccec45c3b88d1f9b7cb4b6f.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/create-block/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2021-12-15 07:56:28.000000000 Z
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: David Calhoun
+  last_updated_on: 2023-08-07 18:17:22.000000000 Z
+- name: path-to-regexp
+  description: Express style path to RegExp utility
+  package_url: https://www.npmjs.com/path-to-regexp
+  version: 0.1.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16316/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/components/package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-02-09 08:33:31.000000000 Z
+- name: pegjs
+  description: Parser generator for JavaScript
+  package_url: https://www.npmjs.com/pegjs
+  version: 0.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16881/default_7fe969828600a90e84607bfa2a19979e53a0579d.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/block-serialization-spec-parser/package.json
+  last_updated_by: Grzegorz (Greg) Ziółkowski
+  last_updated_on: 2019-08-09 08:48:16.000000000 Z
+- name: postcss-loader
+  description: PostCSS loader for webpack
+  package_url: https://www.npmjs.com/postcss-loader
+  version: 6.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15876/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-08-10 20:30:12.000000000 Z
+- name: progress
+  description: Flexible ascii progress bar
+  package_url: https://www.npmjs.com/progress
+  version: 2.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16410/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Glen Davies
+  last_updated_on: 2023-08-15 00:13:18.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Marin Atanasov
+  last_updated_on: 2023-08-16 09:44:59.000000000 Z
+- name: react-native
+  description: A framework for building native apps using React
+  package_url: https://www.npmjs.com/react-native
+  version: 0.71.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16064/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Marin Atanasov
+  last_updated_on: 2023-08-16 09:44:59.000000000 Z
+- name: react-native-svg
+  description: SVG library for react-native
+  package_url: https://www.npmjs.com/react-native-svg
+  version: 13.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18169/default_4ad5899bf99118763f1e1098ab583aaff0340ee8.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/react-native-editor/package.json
+  last_updated_by: Carlos Garcia
+  last_updated_on: 2023-07-28 18:13:33.000000000 Z
+- name: react-test-renderer
+  description: React package for snapshot testing
+  package_url: https://www.npmjs.com/react-test-renderer
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15929/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Bart Kalisz
+  last_updated_on: 2023-08-18 11:09:54.000000000 Z
+- name: read-pkg-up
+  description: Read the closest package.json file
+  package_url: https://www.npmjs.com/read-pkg-up
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16895/default_3772c3833c88109974c994fa9f9548ac8ad59f11.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/scripts/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2021-12-15 07:56:28.000000000 Z
+- name: remark
+  description: Markdown processor powered by plugins
+  package_url: https://www.npmjs.com/remark
+  version: 10.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16952/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/docgen/package.json
+  last_updated_by: Andrés
+  last_updated_on: 2019-03-01 17:15:02.000000000 Z
+- name: remark-parse
+  description: Remark plugin to parse Markdown
+  package_url: https://www.npmjs.com/remark-parse
+  version: 6.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17485/default_2ae5beb193365eca46e337162957275ebc9c6b3b.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/docgen/package.json
+  last_updated_by: sarayourfriend
+  last_updated_on: 2021-02-15 15:51:50.000000000 Z
+- name: requireindex
+  description: Write minimal node index.js files that require and export siblings
+    by file basename
+  package_url: https://www.npmjs.com/requireindex
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17647/default_9126b5a628d81e3d41c9b1190587ab1aec9165c5.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/eslint-plugin/package.json
+  last_updated_by: Grzegorz (Greg) Ziółkowski
+  last_updated_on: 2019-06-03 07:33:36.000000000 Z
+- name: resize-observer-polyfill
+  description: A polyfill for the Resize Observer API
+  package_url: https://www.npmjs.com/resize-observer-polyfill
+  version: 1.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17168/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2022-05-10 08:34:34.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 2.7.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Aki Hamano
+  last_updated_on: 2022-08-08 10:59:29.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 12.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-08-10 20:30:12.000000000 Z
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 6.3.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2023-08-15 06:59:43.000000000 Z
+- name: simple-git
+  description: Simple GIT interface for node.js
+  package_url: https://www.npmjs.com/simple-git
+  version: 3.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16567/default_d6ff16957d0b119d673d5ec0eb21b08d8d5008f4.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Tomasz Tunik
+  last_updated_on: 2022-04-05 10:20:39.000000000 Z
+- name: source-map-loader
+  description: Extracts inlined source map and offers it to webpack
+  package_url: https://www.npmjs.com/source-map-loader
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16190/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-08-10 20:30:12.000000000 Z
+- name: sprintf-js
+  description: JavaScript sprintf implementation
+  package_url: https://www.npmjs.com/sprintf-js
+  version: 1.0.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16880/default_7fe969828600a90e84607bfa2a19979e53a0579d.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jon Surrell
+  last_updated_on: 2020-03-27 16:35:29.000000000 Z
+- name: strip-json-comments
+  description: Strip comments from JSON
+  package_url: https://www.npmjs.com/strip-json-comments
+  version: 3.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16973/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jarda Snajdr
+  last_updated_on: 2023-08-17 13:21:16.000000000 Z
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 3.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Riad Benguella
+  last_updated_on: 2023-08-10 20:30:12.000000000 Z
+- name: stylelint-config-recommended
+  description: Recommended shareable config for stylelint
+  package_url: https://www.npmjs.com/stylelint-config-recommended
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17664/default_551bd6e1eb9aebdd20755ea11f70c7494c135ca4.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/stylelint-config/package.json
+  last_updated_by: Dominik Schilling
+  last_updated_on: 2022-01-20 11:03:07.000000000 Z
+- name: stylelint-config-recommended-scss
+  description: Recommended shareable SCSS config for stylelint
+  package_url: https://www.npmjs.com/stylelint-config-recommended-scss
+  version: 5.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18141/default_3e053d4b47b1198323e0d3094fad02237b4d3c17.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/stylelint-config/package.json
+  last_updated_by: Dominik Schilling
+  last_updated_on: 2022-01-20 11:03:07.000000000 Z
+- name: terser-webpack-plugin
+  description: Terser plugin for webpack
+  package_url: https://www.npmjs.com/terser-webpack-plugin
+  version: 1.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16143/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Marin Atanasov
+  last_updated_on: 2023-08-16 09:44:59.000000000 Z
+- name: traverse
+  description: Traverse and transform objects by visiting every node on a recursive
+    walk
+  package_url: https://www.npmjs.com/traverse
+  version: 0.6.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16901/default_3772c3833c88109974c994fa9f9548ac8ad59f11.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/block-editor/package.json
+  last_updated_by: Grzegorz Ziółkowski
+  last_updated_on: 2023-08-20 05:51:50.000000000 Z
+- name: uglify-js
+  description: JavaScript parser
+  package_url: https://www.npmjs.com/uglify-js
+  version: 3.13.7
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15900/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2021-05-22 15:54:13.000000000 Z
+- name: unified
+  description: Interface for processing text using syntax trees
+  package_url: https://www.npmjs.com/unified
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17259/default_03da3f7f53e439ab3b23ec47828b2f3229885efd.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/docgen/package.json
+  last_updated_by: Andrés
+  last_updated_on: 2019-03-01 17:15:02.000000000 Z
+- name: url-loader
+  description: A loader for webpack which transforms files into base64 URIs
+  package_url: https://www.npmjs.com/url-loader
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15858/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/scripts/package.json
+  last_updated_by: Dominik Schilling
+  last_updated_on: 2022-01-20 11:03:07.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 8.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2021-09-01 09:42:28.000000000 Z
+- name: wd
+  description: WebDriver/Selenium 2 node.js client
+  package_url: https://www.npmjs.com/wd
+  version: 1.12.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17450/default_8c4651c288471a00b2fd6f2055b6de29cb9a049d.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dennis Snell
+  last_updated_on: 2017-02-07 19:17:25.000000000 Z
+- name: webpack-bundle-analyzer
+  description: Webpack plugin and CLI utility that represents bundle content as convenient
+    interactive zoomable treemap
+  package_url: https://www.npmjs.com/webpack-bundle-analyzer
+  version: 4.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15991/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: package.json
+  last_updated_by: Glen Davies
+  last_updated_on: 2023-08-15 00:13:18.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 4.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/scripts/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2023-08-15 06:59:43.000000000 Z
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 4.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/scripts/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2023-08-15 06:59:43.000000000 Z
+- name: webpack-sources
+  description: Source code handling classes for webpack
+  package_url: https://www.npmjs.com/webpack-sources
+  version: 1.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16921/default_24095c83b7b4f8d3f786358b9f13027acb571deb.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/dependency-extraction-webpack-plugin/package.json
+  last_updated_by: Greg Ziółkowski
+  last_updated_on: 2021-12-14 15:53:20.000000000 Z
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 17.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/package-lock.json
+  detection_source: packages/env/package.json
+  last_updated_by: Zebulan Stanphill
+  last_updated_on: 2021-12-23 02:47:55.000000000 Z
+- name: composer/installers
+  description: A multi-framework Composer library installer
+  package_url: https://packagist.org/composer/installers
+  version: '1.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/composer.json
+  detection_source: composer.json
+  last_updated_by: Juliette
+  last_updated_on: 2022-09-29 04:48:30.000000000 Z
+- name: dealerdirect/phpcodesniffer-composer-installer
+  description: PHP_CodeSniffer Standards Composer Installer Plugin
+  package_url: https://packagist.org/dealerdirect/phpcodesniffer-composer-installer
+  version: '0.7'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/composer.json
+  detection_source: composer.json
+  last_updated_by: Anton Vlasenko
+  last_updated_on: 2023-07-20 14:48:07.000000000 Z
+- name: phpcompatibility/php-compatibility
+  description: A set of sniffs for PHP_CodeSniffer that checks for PHP cross-version
+    compatibility
+  package_url: https://packagist.org/phpcompatibility/php-compatibility
+  version: '9.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/test/php/gutenberg-coding-standards/composer.json
+  detection_source: test/php/gutenberg-coding-standards/composer.json
+  last_updated_by: Anton Vlasenko
+  last_updated_on: 2023-07-20 14:48:07.000000000 Z
+- name: phpcompatibility/phpcompatibility-wp
+  description: A ruleset for PHP_CodeSniffer to check for PHP cross-version compatibility
+    issues in projects
+  package_url: https://packagist.org/phpcompatibility/phpcompatibility-wp
+  version: 2.1.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/composer.json
+  detection_source: composer.json
+  last_updated_by: Anton Vlasenko
+  last_updated_on: 2023-07-20 14:48:07.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: '4.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/test/php/gutenberg-coding-standards/composer.json
+  detection_source: test/php/gutenberg-coding-standards/composer.json
+  last_updated_by: Anton Vlasenko
+  last_updated_on: 2023-07-20 14:48:07.000000000 Z
+- name: sirbrillig/phpcs-variable-analysis
+  description: A PHPCS sniff to detect problems with variables
+  package_url: https://packagist.org/sirbrillig/phpcs-variable-analysis
+  version: '2.8'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/composer.json
+  detection_source: composer.json
+  last_updated_by: Anton Vlasenko
+  last_updated_on: 2023-07-20 14:48:07.000000000 Z
+- name: spatie/phpunit-watcher
+  description: Automatically rerun PHPUnit tests when source code changes
+  package_url: https://packagist.org/spatie/phpunit-watcher
+  version: '1.23'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/composer.json
+  detection_source: composer.json
+  last_updated_by: Anton Vlasenko
+  last_updated_on: 2023-07-20 14:48:07.000000000 Z
+- name: squizlabs/php_codesniffer
+  description: PHP_CodeSniffer tokenizes PHP
+  package_url: https://packagist.org/squizlabs/php_codesniffer
+  version: '3.5'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/composer.json
+  detection_source: composer.json
+  last_updated_by: Anton Vlasenko
+  last_updated_on: 2023-07-20 14:48:07.000000000 Z
+- name: wp-coding-standards/wpcs
+  description: PHP_CodeSniffer rules
+  package_url: https://packagist.org/wp-coding-standards/wpcs
+  version: '2.2'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/composer.json
+  detection_source: composer.json
+  last_updated_by: Anton Vlasenko
+  last_updated_on: 2023-07-20 14:48:07.000000000 Z
+- name: wordpress-mobile/AztecEditor-iOS
+  description: A reusable native iOS visual HTML text editor component
+  package_url: https://github.com/Carthage/wordpress-mobile/AztecEditor-iOS
+  version: 1.15.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/carthage/image.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/packages/react-native-aztec/ios/Cartfile.resolved
+  detection_source: packages/react-native-aztec/ios/Cartfile
+  last_updated_by: Tugdual de Kerviler
+  last_updated_on: 2020-06-23 16:56:48.000000000 Z
+- name: WordPress-Aztec-iOS
+  description: The native HTML Editor
+  package_url: https://cocoapods.org/pods/WordPress-Aztec-iOS
+  version: 1.19.8
+  license: ''
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/package/cocoapods/image.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/packages/react-native-editor/ios/Podfile.lock
+  detection_source: packages/react-native-aztec/RNTAztecView.podspec
+  last_updated_by: Tanner Stokes
+  last_updated_on: 2022-02-14 23:44:46.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/packages/react-native-aztec/android/build.gradle
+  detection_source: packages/react-native-aztec/android/build.gradle
+  last_updated_by: Carlos Garcia
+  last_updated_on: 2023-07-28 18:13:33.000000000 Z
+- name: cocoapods
+  description: CocoaPods manages library dependencies for your Xcode project
+  package_url: https://rubygems.org/cocoapods
+  version: 1.11.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19189/default_2266a6c0e2693d55b1999a7c5db4be13e5720232.png
+  detection_source_url: https://github.com/Jabatronic/gutenberg/blob/trunk/packages/react-native-editor/ios/Gemfile.lock
+  detection_source: packages/react-native-editor/ios/Gemfile
+  last_updated_by: Carlos Garcia
+  last_updated_on: 2023-07-27 09:52:54.000000000 Z
